@@ -1,0 +1,29 @@
+{
+    "name": "jcchavezs/tracing-context",
+    "description": "Basic abstraction for tracing context",
+    "type": "library",
+    "require": {
+        "php": "^5.6||^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7.19"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "José Carlos Chávez",
+            "email": "jcchavezs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "TracingContext\\": "./src/TracingContext"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./tests/"
+        }
+    }
+}
