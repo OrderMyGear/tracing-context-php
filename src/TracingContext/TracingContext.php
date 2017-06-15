@@ -32,4 +32,9 @@ final class TracingContext
 
         return $this->values[(string) $key];
     }
+
+    public function isEqual(TracingContext $tracingContext)
+    {
+        return $this->values == $tracingContext->values;
+    }
 }
